@@ -1,0 +1,30 @@
+/* App.module.css */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+.main>h1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid black;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: black;
+    color: red;
+   
+  }
+  
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+  

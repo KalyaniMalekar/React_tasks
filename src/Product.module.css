@@ -1,0 +1,79 @@
+.mainContainer {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.cardBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mainBox {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.cartBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.cartCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cartCard h3 {
+    font-size: 18px;
+    margin: 0;
+    flex: 1;
+}
+
+.cartCard div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartCard button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cartCard button:hover {
+    background-color: #45a049;
+}
+
+.cartCard span {
+    font-size: 18px;
+}
+
+.cartCard p {
+    font-size: 18px;
+    color: #333;
+    margin: 30px;
+
+}
+
+
